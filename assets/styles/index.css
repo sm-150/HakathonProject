@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .meeting-slide {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  background: #1a1c20;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1a1c20), to(#fce38a));
+  background: linear-gradient(0deg, #1a1c20 0%, #fce38a 100%);
+  color: white;
+}
+
+body .container .meeting-slide img {
+  height: 60%;
+}
+
+body .container .meeting-slide .name {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: black;
+}
+
+body .container .first-slide {
+  width: 100%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1a1c20;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1c20), to(#f9813a));
+  background: linear-gradient(180deg, #1a1c20 0%, #f9813a 100%);
+}
+
+body .container .first-slide .text {
+  width: 30%;
+  height: 80%;
+  margin: 10px;
+}
+
+body .container .first-slide .text p {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  background: #95e1d3d8;
+  padding: 20px;
+  -webkit-box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+body .container .first-slide .sub-text {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  color: white;
+  width: 50%;
+}
+
+body .container .first-slide .fusion {
+  height: 65%;
+  border: 2px white solid;
+  border-radius: 10px;
+  position: absolute;
+  right: 10%;
+  top: 0;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+body .container .first-slide .smiling {
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+}
+
+body .container .second-slide {
+  width: 100%;
+  height: 90vh;
+  background: #f9813a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9813a), to(#f38181));
+  background: linear-gradient(180deg, #f9813a 0%, #f38181 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .second-slide .text1 {
+  width: 40%;
+  margin: 30px;
+  background: white;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+body .container .second-slide .text1 p {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+body .container .second-slide .baby-lysosome {
+  height: 25%;
+}
+
+body .container .second-slide .arrow {
+  height: 30%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+body .container .second-slide .boy-lysosome {
+  height: 45%;
+}
+
+body .container .third-slide {
+  width: 100%;
+  height: 90vh;
+  background: #f38181;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f38181), to(#c24914));
+  background: linear-gradient(180deg, #f38181 0%, #c24914 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .third-slide .text2, body .container .third-slide .text3 {
+  width: 30%;
+  margin: 20px;
+  background: #35343b;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px blue solid;
+}
+
+body .container .third-slide .text2 p, body .container .third-slide .text3 p {
+  width: 100%;
+  text-align: center;
+}
+
+body .container .third-slide .fagocytosis {
+  width: 30%;
+}
+
+body .container .fourth-slide {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #c24914;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c24914), to(#0a043c));
+  background: linear-gradient(180deg, #c24914 0%, #0a043c 100%);
+}
+
+body .container .fourth-slide .text4 {
+  width: 35%;
+  margin: 50px;
+  color: white;
+}
+
+body .container .fourth-slide .digestion {
+  width: 40%;
+  margin: 20px;
+}
+
+body .container .fifth-slide {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #0a043c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0a043c), to(#bbbbbb));
+  background: linear-gradient(180deg, #0a043c 0%, #bbbbbb 100%);
+}
+
+body .container .fifth-slide .text5 {
+  width: 35%;
+  margin: 50px;
+  background: white;
+  padding: 10px;
+  -webkit-box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+body .container .fifth-slide .soldier-lysosome {
+  width: 15%;
+  margin: 0 50px;
+}
+
+body .container .fifth-slide .virus {
+  width: 20%;
+  margin: 0 50px;
+}
+
+body .container .sixth-slide {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #bbbbbb;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbbbb), to(#3c0409));
+  background: linear-gradient(180deg, #bbbbbb 0%, #3c0409 100%);
+  position: relative;
+}
+
+body .container .sixth-slide .text6 {
+  width: 35%;
+  margin: 50px;
+  padding: 15px;
+  -webkit-box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 15px 5px rgba(0, 0, 0, 0.75);
+}
+
+body .container .sixth-slide .structure {
+  width: 30%;
+  margin-left: 150px;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+  border: 2px black solid;
+  border-radius: 20px;
+}
+
+body .container .sixth-slide .doctor {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  height: 30%;
+}
+/*# sourceMappingURL=index.css.map */
